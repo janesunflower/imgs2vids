@@ -1,0 +1,31 @@
+vids_root: '/home/jarvis/Papers/vids/vid/' # 视频所在的路径，视频放在video文件夹下
+imgs_root: '/home/jarvis/Papers/vids/imgs/' # 图片保存的上级目录
+
+vid_name: 'eth_snow'
+
+vid_houzhui: '.mp4'
+img_houzhui: '.jpg'
+
+img2vid:
+  fps: 30 #帧率
+  w: 1280
+  h: 720
+  start_frame: 22
+  end_frame: 209 # 起始帧，截止帧
+
+isPutText: True
+putText:
+  text: "10 m/s"
+  orgx: 1000 #字位置
+  orgy: 80
+  fontScale: 2.0 # 字号
+  thickness: 6 # 粗细
+
+isCrop: False
+cropImg:
+  h1: 208
+  h2: 720
+  w1: 260
+  w2: 900
+
+
