@@ -53,7 +53,7 @@ def imgs2vids(config):
     videoWriter.release()
 
 
-def rename_file(img_path):
+def rename_imgs(img_path):
     img_list = os.listdir(img_path)
     img_list.sort()
     l = len(img_list)
@@ -106,7 +106,7 @@ if __name__ == "__main__":
     # # 重命名图片名字
     # new_img_name = 'fly03'
     # img_path = config['imgs_root'] + new_img_name + '/' # 保存路径
-    # rename_file(img_path)
+    # rename_imgs(img_path)
     # print("重命名成功", len(os.listdir(img_path)))
 
     # 裁剪图片

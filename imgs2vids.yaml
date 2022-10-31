@@ -13,7 +13,7 @@ img2vid:
   start_frame: 22
   end_frame: 209 # 起始帧，截止帧
 
-isPutText: True
+isPutText: True # 是否写字
 putText:
   text: "10 m/s"
   orgx: 1000 #字位置
