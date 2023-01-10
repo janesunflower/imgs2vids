@@ -32,6 +32,7 @@ def vids2imgs(config):  # 提取视频中图片 按照每帧提取
 def imgs2vids(config):
     img_root = config['imgs_root'] + config['vid_name'] + "/"
     vid_save_path = config['imgs_root']  + config['vid_name']  + config['vid_houzhui']
+    print(vid_save_path)
     img_len = len(glob.glob(img_root + '*.jpg'))
     print("img_len:", img_len)
 
